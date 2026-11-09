@@ -1,1 +1,66 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Xavier Conyers | Portfolio</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #1e293b;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: system-ui, -apple-system, sans-serif; }
+    body { background: var(--bg); color: var(--text); padding: 20px; line-height: 1.6; }
+    header { max-width: 800px; margin: 40px auto 20px; text-align: center; }
+    h1 { font-size: 2.2rem; color: var(--text); margin-bottom: 8px; }
+    p.tagline { color: var(--accent); font-weight: 600; margin-bottom: 20px; }
+    nav { display: flex; justify-content: center; gap: 15px; margin-bottom: 40px; }
+    nav a { color: var(--muted); text-decoration: none; font-weight: 500; transition: color 0.2s; }
+    nav a:hover { color: var(--accent); }
+    section { max-width: 800px; margin: 0 auto 40px; background: var(--card); padding: 24px; border-radius: 12px; }
+    h2 { font-size: 1.4rem; color: var(--accent); margin-bottom: 12px; }
+    .project-card { background: rgba(255,255,255,0.03); padding: 16px; border-radius: 8px; margin-top: 12px; border: 1px solid rgba(255,255,255,0.05); }
+    .btn { display: inline-block; background: var(--accent); color: #000; padding: 10px 18px; border-radius: 6px; text-decoration: none; font-weight: 600; margin-top: 15px; }
+    footer { text-align: center; color: var(--muted); font-size: 0.9rem; padding: 20px 0; }
+  </style>
+</head>
+<body>
 
+  <header>
+    <h1>Xavier Conyers</h1>
+    <p class="tagline">UX/UI Designer & Web Developer</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi! I'm Xavier. I specialize in web development, user experience design, and digital interface architecture.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Duo-Plan App Design</h3>
+      <p>A comprehensive mobile planner interface designed in Figma tailored for student task tracking and scheduling.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Get in Touch</h2>
+    <p>Feel free to reach out for collaborations or inquiries.</p>
+    <a href="mailto:XavierConyers1@Gmail.com" class="btn">Send Email</a>
+  </section>
+
+  <footer>
+    <p>© 2026 Xavier Conyers</p>
+  </footer>
+
+</body>
+</html>
